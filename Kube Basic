@@ -1,0 +1,3 @@
+Find the Kubeconfig file
+ [[ ! -z "$KUBECONFIG" ]] && echo "$KUBECONFIG" || echo "$HOME/.kube/config"  
+ 
